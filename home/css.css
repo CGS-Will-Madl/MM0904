@@ -1,0 +1,70 @@
+html {
+	background-color: #4c8ce6;
+}
+
+.button.is-rounded {
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.button.is-link {
+    background-color: #3273dc;
+    border-color: transparent;
+    color: #fff;
+	text-decoration: none;
+}
+
+::selection { background: #98f9df;}
+
+body {
+	background-color: #b1c9ea;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 1000px;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+.navbar {
+  	background-color: #333;
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+
+.navbar a {
+	float: left;
+  	color: #f2f2f2;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.navbar a:hover {
+	  background: #ddd;
+	  color: black;
+}
+
+.main {
+	  padding: 16px;
+	  margin-top: 30px;
+	  height: 1500px; 
+}
+.navbar {
+	margin: 10px;
+}
+
+li {
+	list-style-position: inside;
+}
